@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Todo List</h1>
+    </header>
+    <main class="container">
+        <article class="articleItems">
+            <form id="formulario" class="formContainer">
+                <div class="inputContainer">
+                    <label for="task">nombre del task</label>
+                    <input type="text" name="" id="task">
+                </div>
+                <div class="inputContainer">
+                    <label for="autor">autor</label>
+                    <input type="text" name="" id="autor">
+                </div>
+                <input type="submit" class="inputSubmit" value="Enviar">
+            </form>
+            <div id="message"></div>
+        </article>
+        <aside class="asideItems">
+            <h2>List</h2>
+            <div id="containerList"></div>
+        </aside>
+    </main>
+    <script src="/app.js"></script>
+</body>
+</html>
